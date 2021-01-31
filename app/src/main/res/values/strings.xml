@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ActivityTest</string>
+    <string name="first_activity_label">魏雯琳</string>
+    <string name="button1_text">魏雯琳是什么</string>
+
+    <!--    SecondActivity-->
+    <string name="answer_to_button1">傻逼</string>
+    <string name="button2_text">王冬是什么</string>
+    <string name="answer_to_button2">Fucker</string>
+    <string name="data_return">点我回去</string>
+    <string name="returned_data">你爷爷我又回来啦</string>
+
+    <!--    FirstActivity-->
+    <string name="jump_to_second_text">jumping point</string>
+    <string name="go_to_pornhub">看片儿</string>
+    <string name="pornhub_address">http://www.baidu.com</string>
+    <string name="button3_dial">骚扰电话</string>
+
+    <string name="input_reminder_text">请输入王冬的属性</string>
+    <string name="input_hint">请从A-D中任选一个字母填入</string>
+
+    <string name="life_cycle">生命周期--普通Activity</string>
+    <string name="life_cycle_dialog">生命周期--Dialog</string>
+
+    <string name="answer_of_A">他是螃蟹精</string>
+    <string name="answer_of_B">他是黑框眼镜的挂件</string>
+    <string name="answer_of_C">他是喜欢胸和屁股的肉团子爱好者</string>
+    <string name="answer_of_D">他是tq的暖手袋</string>
+    <string name="answer_of_default">他是魏雯琳的泄欲对象</string>
+    <!--    menu-->
+    <string name="menu_add_something">薛定谔的猫</string>
+    <string name="menu_remove_something">巴普洛夫的狗</string>
+    <string name="menu_exit">危</string>
+    <string name="title_activity_forth">ForthActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

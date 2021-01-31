@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/button_set" >
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button1"
+                android:text="@string/button1_text"/>
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/go_to_pornhub"
+                android:text="@string/go_to_pornhub"/>
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button3_switcher"
+                android:text="@string/button3_dial" />
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/life_cycle"
+                android:text="@string/life_cycle"/>
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/life_cycle_dialog"
+                android:text="@string/life_cycle"/>
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/input_reminder"
+              android:text="@string/input_reminder_text"
+              android:textSize="16sp"
+              android:layout_below="@id/button_set"
+              android:layout_marginTop="40dp"
+              android:layout_marginStart="6dp"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/input_opinion"
+              android:hint="@string/input_hint"
+              android:paddingTop="15dp"
+              android:paddingBottom="8dp"
+              android:layout_below="@id/input_reminder"
+              android:layout_marginRight="6dp"
+              android:layout_marginLeft="6dp" />
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_jump_to_second"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginEnd="40dp"
+            android:text="@string/jump_to_second_text"/>
+</RelativeLayout>
